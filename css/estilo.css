@@ -341,6 +341,23 @@ section {
     font-family: "Poppins", sans-serif;
     transition: ease-in-out 0.3s;
 }
-.facts .count-box a::hover{
+.facts .count-box a:hover{
     color: #149ddd;
+}
+
+/* Skills */
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #040b14;
 }
